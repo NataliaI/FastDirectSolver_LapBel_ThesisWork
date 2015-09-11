@@ -1,0 +1,372 @@
+\begin{thebibliography}{10}
+
+\bibitem{Atk97}
+K.E. Atkinson.
+\newblock {\em The numerical solution of integral equations of the second
+  kind}, volume~4.
+\newblock Cambridge University Press, 1997.
+
+\bibitem{Barn14}
+A.~H. Barnett.
+\newblock Evaluation of layer potentials close to the boundary for {L}aplace
+  and {H}elmholtz problems on analytic planar domains.
+\newblock {\em SIAM Journal on Scientific Computing}, 36(2):A427--A451, 2014.
+
+\bibitem{Bjorck94}
+A.~Bj{\"o}rck.
+\newblock Numerics of {G}ram-{S}chmidt orthogonalization.
+\newblock {\em Linear Algebra and Its Applications}, 197:297--316, 1994.
+
+\bibitem{Bjorck96}
+A.~Bj{\"o}rck.
+\newblock {\em Numerical methods for least squares problems}.
+\newblock SIAM, 1996.
+
+\bibitem{Boatto2008}
+S.~Boatto and J.~Koiller.
+\newblock Vortices on closed surfaces.
+\newblock {\em arXiv preprint arXiv:0802.4313}, 2008.
+
+\bibitem{Bjorn2010}
+S.~B{\"o}rm.
+\newblock {\em Efficient numerical methods for non-local operators: {H2}-matrix
+  compression, algorithms and analysis}, volume~14.
+\newblock European Mathematical Society, 2010.
+
+\bibitem{NumAn2011}
+R.~L. Burden and J.~D. Faires.
+\newblock {\em Numerical Analysis}.
+\newblock Brooks/Cole, Cengage Learning, Boston, MA, 2011.
+
+\bibitem{CarrGreenRok88}
+J.~Carrier, L.~Greengard, and V.~Rokhlin.
+\newblock A fast adaptive multipole algorithm for particle simulations.
+\newblock {\em SIAM Journal on Scientific and Statistical Computing},
+  9(4):669--686, 1988.
+
+\bibitem{Chap2001}
+M.~A.J. Chaplain, M.~Ganesh, and I.~G. Graham.
+\newblock Spatio-temporal pattern formation on spherical surfaces: numerical
+  simulation and application to solid tumour growth.
+\newblock {\em Journal of Mathematical Biology}, 42(5):387--423, 2001.
+
+\bibitem{ChengEtAl2005}
+H.~Cheng, Z.~Gimbutas, P.G. Martinsson, and V.~Rokhlin.
+\newblock On the compression of low rank matrices.
+\newblock {\em SIAM Journal on Scientific Computing}, 26(4):1389--1404, 2005.
+
+\bibitem{Colton2013}
+D.~Colton and R.~Kress.
+\newblock {\em Integral equation methods in scattering theory}, volume~72.
+\newblock SIAM, 2013.
+
+\bibitem{Crowdy2006}
+D.~Crowdy.
+\newblock Point vortex motion on the surface of a sphere with impenetrable
+  boundaries.
+\newblock {\em Physics of Fluids}, 18(3):036602, 2006.
+
+\bibitem{Crowdy2003}
+D.~Crowdy and M.~Cloke.
+\newblock Analytical solutions for distributed multipolar vortex equilibria on
+  a sphere.
+\newblock {\em Physics of Fluids}, 15(1):22--34, 2003.
+
+\bibitem{UMF}
+T.~A. Davis.
+\newblock Algorithm 832: {UMFPACK V}4. 3---an unsymmetric-pattern multifrontal
+  method.
+\newblock {\em ACM Transactions on Mathematical Software (TOMS)},
+  30(2):196--199, 2004.
+
+\bibitem{Dax2000}
+A.~Dax.
+\newblock A modified {G}ram--{S}chmidt algorithm with iterative
+  orthogonalization and column pivoting.
+\newblock {\em Linear Algebra and its Applications}, 310(1):25--42, 2000.
+
+\bibitem{Drit15}
+D.~G. Dritschel and S.~Boatto.
+\newblock The motion of point vortices on closed surfaces.
+\newblock In {\em Proceedings of the Royal Society of London A: Mathematical,
+  Physical and Engineering Sciences}, volume 471, page 20140890. The Royal
+  Society, 2015.
+
+\bibitem{Dutt2000}
+A.~Dutt, L.~Greengard, and V.~Rokhlin.
+\newblock Spectral deferred correction methods for ordinary differential
+  equations.
+\newblock {\em BIT Numerical Mathematics}, 40(2):241--266, 2000.
+
+\bibitem{Evans98}
+L.~Evans.
+\newblock {\em Partial differential equations}.
+\newblock American Mathematical Society, 1998.
+
+\bibitem{FluchGust97}
+M.~Flucher and B.~Gustafsson.
+\newblock Vortex motion in two-dimensional hydrodynamics.
+\newblock {\em Royal Institute of Technology Report No. TRITA-MAT- 97-MA 02},
+  1997.
+
+\bibitem{GemmNigStein2008}
+S.~Gemmrich, N.~Nigam, and O.~Steinbach.
+\newblock Boundary integral equations for the {L}aplace-{B}eltrami operator.
+\newblock In {\em Mathematics and Computation, a Contemporary View}, pages
+  21--37. Springer, 2008.
+
+\bibitem{GillYoungMart2012}
+A.~Gillman, P.~M. Young, and P.G. Martinsson.
+\newblock A direct solver with {$O(N)$} complexity for integral equations on
+  one-dimensional domains.
+\newblock {\em Frontiers of Mathematics in China}, 7(2):217--247, 2012.
+
+\bibitem{FMMLIB}
+Z.~Gimbutas and L.~Greengard.
+\newblock {FMMLIB}: fast multipole methods for electrostatics, elastostatics,
+  and low frequency acoustic modeling.
+\newblock {\em preparation. Software available from http://www. cims. nyu.
+  edu/cmcl/software. html}.
+
+\bibitem{Gock2010}
+M.S. Gockenbach.
+\newblock {\em Partial differential equations: analytical and numerical
+  methods}.
+\newblock SIAM, 2010.
+
+\bibitem{Gott77}
+D.~Gottlieb and S.~A. Orszag.
+\newblock {\em Numerical analysis of spectral methods: theory and
+  applications}, volume~26.
+\newblock SIAM, 1977.
+
+\bibitem{Greenbaum12}
+A.~Greenbaum and T.P. Chartier.
+\newblock {\em Numerical Methods: Design, analysis, and computer implementation
+  of algorithms}.
+\newblock Princeton University Press, 2012.
+
+\bibitem{GGM93}
+A.~Greenbaum, L.~Greengard, and G.B. McFadden.
+\newblock Laplace's equation and the {D}irichlet-{N}eumann map in multiply
+  connected domains.
+\newblock {\em Journal of Computational Physics}, 105(2):267--278, 1993.
+
+\bibitem{Green88}
+L.~Greengard.
+\newblock {\em The rapid evaluation of potential fields in particle systems}.
+\newblock MIT press, 1988.
+
+\bibitem{Green91}
+L.~Greengard.
+\newblock Spectral integration and two-point boundary value problems.
+\newblock {\em SIAM Journal on Numerical Analysis}, 28(4):1071--1080, 1991.
+
+\bibitem{GreenRok87}
+L.~Greengard and V.~Rokhlin.
+\newblock A fast algorithm for particle simulations.
+\newblock {\em Journal of Computational Physics}, 73(2):325--348, 1987.
+
+\bibitem{Griffiths}
+D.~J. Griffiths.
+\newblock {\em Introduction to electrodynamics}.
+\newblock Boston: Pearson, 2013.
+
+\bibitem{GuEis96}
+M.~Gu and S.~C. Eisenstat.
+\newblock Efficient algorithms for computing a strong rank-revealing {QR}
+  factorization.
+\newblock {\em SIAM Journal on Scientific Computing}, 17(4):848--869, 1996.
+
+\bibitem{Hack99}
+W.~Hackbusch.
+\newblock A sparse matrix arithmetic based on {H}-matrices. part {I}:
+  Introduction to {H}-matrices.
+\newblock {\em Computing}, 62(2):89--108, 1999.
+
+\bibitem{Hair2006}
+E.~Hairer, C.~Lubich, and G.~Wanner.
+\newblock {\em Geometric numerical integration: structure-preserving algorithms
+  for ordinary differential equations}, volume~31.
+\newblock Springer Science \& Business Media, 2006.
+
+\bibitem{Hair93}
+E.~Hairer, S.P. Norsett, and G.~Wanner.
+\newblock Solving ordinary differential equations {I}, nonstiff problems.
+\newblock {\em Section III}, 8, 1993.
+
+\bibitem{Hels08}
+J.~Helsing and R.~Ojala.
+\newblock On the evaluation of layer potentials close to their sources.
+\newblock {\em Journal of Computational Physics}, 227(5):2899--2921, 2008.
+
+\bibitem{HoGreen2012}
+K.~L. Ho and L.~Greengard.
+\newblock A fast direct solver for structured linear systems by recursive
+  skeletonization.
+\newblock {\em SIAM Journal on Scientific Computing}, 34(5):A2507--A2532, 2012.
+
+\bibitem{Ingham2012}
+D.~B. Ingham and M.~A. Kelmanson.
+\newblock {\em Boundary integral equation analyses of singular, potential, and
+  biharmonic problems}, volume~7.
+\newblock Springer Science \& Business Media, 2012.
+
+\bibitem{Kid2000Stream}
+R.~Kidambi and P.~K Newton.
+\newblock Streamline topologies for integrable vortex motion on a sphere.
+\newblock {\em Physica D: Nonlinear Phenomena}, 140(1):95--125, 2000.
+
+\bibitem{Kid2000}
+R.~Kidambi and P.K. Newton.
+\newblock Point vortex motion on a sphere with solid boundaries.
+\newblock {\em Physics of Fluids}, 12(3):581--588, 2000.
+
+\bibitem{Kimura87}
+Y.~Kimura and H.~Okamoto.
+\newblock Vortex motion on a sphere.
+\newblock {\em Journal of the Physical Society of Japan}, 56(12):4203--4206,
+  1987.
+
+\bibitem{Kirch76}
+G.~Kirchhoff.
+\newblock {\em Vorlesungen {\"u}ber mathematische Physik}, volume~1.
+\newblock BG Teubner, 1876.
+
+\bibitem{Klock13}
+A.~Kl{\"o}ckner, A.~Barnett, L.~Greengard, and M.~O'Neil.
+\newblock Quadrature by expansion: a new method for the evaluation of layer
+  potentials.
+\newblock {\em Journal of Computational Physics}, 252:332--349, 2013.
+
+\bibitem{Kress99}
+R.~Kress.
+\newblock {\em Linear integral equations, volume 82 of Applied Mathematical
+  Sciences}.
+\newblock Springer-Verlag, New York,, 1999.
+
+\bibitem{KropNig2014}
+M.C.A. Kropinski and N.~Nigam.
+\newblock Fast integral equation methods for the {L}aplace-{B}eltrami equation
+  on the sphere.
+\newblock {\em Advances in Computational Mathematics}, 40(2):577--596, 2014.
+
+\bibitem{Lev2007}
+R.~J. LeVeque.
+\newblock {\em Finite difference methods for ordinary and partial differential
+  equations: steady-state and time-dependent problems}, volume~98.
+\newblock SIAM, 2007.
+
+\bibitem{Lin41}
+C.C. Lin.
+\newblock On the motion of vortices in two dimensions: I. existence of the
+  {K}irchhoff-{R}outh function.
+\newblock {\em Proceedings of the National Academy of Sciences of the United
+  States of America}, 27(12):570, 1941.
+
+\bibitem{March88}
+C.~Marchioro.
+\newblock Euler evolution for singular initial data and vortex theory: a global
+  solution.
+\newblock {\em Communications in Mathematical Physics}, 116(1):45--55, 1988.
+
+\bibitem{CBMScode}
+P.G. Martinsson.
+\newblock 2014 {CBMS-NSF} {C}onference: Fast direct solvers for elliptic
+  {PDE}s: Codes, 2014.
+
+\bibitem{CBMS}
+P.G. Martinsson.
+\newblock 2014 {CBMS-NSF} {C}onference: Fast direct solvers for elliptic
+  {PDE}s: Lecture materials, 2014.
+
+\bibitem{MartRokh2005}
+P.G. Martinsson and V.~Rokhlin.
+\newblock A fast direct solver for boundary integral equations in two
+  dimensions.
+\newblock {\em Journal of Computational Physics}, 205(1):1--23, 2005.
+
+\bibitem{Myers2004}
+T.G. Myers and J.~PF Charpin.
+\newblock A mathematical model for atmospheric ice accretion and water flow on
+  a cold surface.
+\newblock {\em International Journal of Heat and Mass Transfer},
+  47(25):5483--5500, 2004.
+
+\bibitem{Newt2001}
+P.K. Newton.
+\newblock {\em The N-vortex problem: analytical techniques}, volume 145.
+\newblock Springer Science \& Business Media, 2001.
+
+\bibitem{Nish2002}
+N.~Nishimura.
+\newblock Fast multipole accelerated boundary integral equation methods.
+\newblock {\em Applied Mechanics Reviews}, 55(4):299--324, 2002.
+
+\bibitem{Stein2007}
+S.~Rjasanow and O.~Steinbach.
+\newblock {\em The fast solution of boundary integral equations}.
+\newblock Springer Science \& Business Media, 2007.
+
+\bibitem{Routh80}
+E.J. Routh.
+\newblock Some applications of conjugate functions.
+\newblock {\em Proceedings of the London Mathematical Society}, 1(1):73--89,
+  1880.
+
+\bibitem{Saff92}
+P.G. Saffman.
+\newblock {\em Vortex dynamics}.
+\newblock Cambridge University Press, 1992.
+
+\bibitem{Strauss2008}
+W.~A. Strauss.
+\newblock {\em Partial differential equations: An introduction}.
+\newblock John Wiley \& Sons, Inc., 1992.
+
+\bibitem{SurCrow2008}
+A.~Surana and D.~Crowdy.
+\newblock Vortex dynamics in complex domains on a spherical surface.
+\newblock {\em Journal of Computational Physics}, 227(12):6058--6070, 2008.
+
+\bibitem{Tang2008}
+T.~Tang, X.~Xu, and J.~Cheng.
+\newblock On spectral methods for {V}olterra integral equations and the
+  convergence analysis.
+\newblock {\em J. Comput. Math}, 26(6):825--837, 2008.
+
+\bibitem{Tref97}
+L.~N. Trefethen and D.~Bau~III.
+\newblock {\em Numerical linear algebra}, volume~50.
+\newblock SIAM, 1997.
+
+\bibitem{Turk87}
+B.~Turkington.
+\newblock On the evolution of a concentrated vortex in an ideal fluid.
+\newblock {\em Archive for Rational Mechanics and Analysis}, 97(1):75--87,
+  1987.
+
+\bibitem{Wit91}
+A.~Witkin and M.~Kass.
+\newblock Reaction-diffusion textures.
+\newblock {\em ACM Siggraph Computer Graphics}, 25(4):299--308, 1991.
+
+\bibitem{Xia2009}
+J.~Xia, S.~Chandrasekaran, M.~Gu, and X.~S. Li.
+\newblock Superfast multifrontal method for large structured linear systems of
+  equations.
+\newblock {\em SIAM Journal on Matrix Analysis and Applications},
+  31(3):1382--1411, 2009.
+
+\bibitem{Ying2004}
+L.~Ying, G.~Biros, and D.~Zorin.
+\newblock A kernel-independent adaptive fast multipole algorithm in two and
+  three dimensions.
+\newblock {\em Journal of Computational Physics}, 196(2):591--626, 2004.
+
+\bibitem{YinZhan97}
+L.~Ying and P.~Zhang.
+\newblock {\em Vortex methods}, volume 381.
+\newblock Kluwer Academic Pub, 1997.
+
+\end{thebibliography}

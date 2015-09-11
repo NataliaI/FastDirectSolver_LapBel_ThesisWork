@@ -1,0 +1,98 @@
+Codes for solving the Dirichlet Laplace-Beltrami Equation on the Sphere
+------------------------------------------------------------------------
+
+Codes are divided by chapter in self contained folders
+All scripts which generate figures/results in the thesis are included
+
+CHAPTER 4 : Numerical Results
+------------------------------
+
+The fast direct solver is explained in the most detail in 
+* main_FastDirectSolver
+
+The associated functions called are : 
+OMNICONT_compress_HSS_dsym_brute - brute force compression
+OMNICONT_compress_HSS_dsym_green - proxy point compression
+
+which in turn call : 
+OMNICONT_construct_A_diag  - constructs diagonal blocks
+OMNICONT_construct_A_offd  - constructs off-diagonal blocks
+OMNICONT_construct_A_sing  - constructs reduced off-diagonal blocks with proxy points
+OMNICONT_construct_Atilde  - constructs sparse matrix for UMFPACK
+OMNICONT_construct_contour - constructs boundary contour
+
+
+* main_Ex4_1 : outputs results corresponding to Example 4.1
+
+    Since this example takes a long time to run I have output values saved from the run I 
+    used in the thesis: 
+    * Ex4-1Results.mat 
+    These results are plotted in: 
+    * PlotResults_Ex4_1.m
+ 
+* main_Ex4_2 : outputs results corresponding to Example 4.2 
+    
+    I also have outputs for this example in 
+    * Ex4-2Results.mat
+    which are plotted in 
+    * PlotResults_Ex4_2.m
+    
+CHAPTER 6: Numerical Results for Vortex Motion
+-----------------------------------------------
+
+-Instantaneous Vortex Motion: 
+
+-Spherical Cap:
+* main_Ex6_1ConvergencePlot : outputs Figure 6.1 in Example 6.1
+* main_Ex6_1SphericalCap : outputs Figure 6.2 in Example 6.1
+
+-Star-Shaped Boundary: 
+* main_Ex6_2StarShapedBoundary : outputs Figure 6.3 in Example 6.2
+
+-Point Vortex Trajectories:
+-Spherical Cap
+* main_Ex6_3and6_6SphericalCap : outputs Figure 6.4 in Example 6.3 and Figure 6.7 in Example 6.6  
+                               : implements both Method 1 and Method 2 for obtaining trajectories
+                               : Spectral Deferred Correction is implemented in the function SDC.m
+-Star-Shaped Boundary 
+* main_Ex6_5and6_7StarShapedBoundary : outputs Figure 6.6 in Example 6.6 and Figure 6.10 in Example 6.7
+                                     : implements both Method 1 and 2 for obtaining trajectories
+
+-Convergence Rates/Timing for Spectral Deferred Correction : 
+-Spherical Cap 
+* main_Ex6_6SDC_CapConvergence : outputs Figure 6.8 in Example 6.6
+                               : outputs convergence rates of SDC for a spherical cap domain 
+                               : code looks at the convergence of the error vs the number of points M
+                               : and the convergence of the error vs the number of correction steps J
+
+-FMM Vs Direct Solver
+* main_Ex6_4_FDSvsFMM : outputs Figure 6.5 in Example 6.4
+                      : compares the performance of the fast direct solver to the FMM for a spherical cap domain
+
+-Vortex Trajectories for Extended Island 
+* main_Ex6_8ExtendedIsland : outputs Figure 6.11 and 6.12
+                           : plots vortex trajectories over a domain with a thin, extended island 
+                             to compare with Crowdy's results
+                           : trajectories are plotted on the sphere and in the stereographic plane
+
+
+CHAPTER 7: The Multiply Connected Case
+---------------------------------------
+* main_Ex7_1Convergence : implements fast direct solver for a multiply connected domain 
+                        : outputs Figure 7.1b)
+                        : outputs convergence rate of error  
+          
+* main_Ex7_1SolutionPlot : outputs Figure 7.1a)
+                         : produces a solution plot for a specific value of N (N=2000)
+                         : colormap values are slightly changed from the values used in thesis
+                         
+* main_Ex7_1Timings : outputs Figure 7.1c)
+                    : produces timing plots for three stages of direct solver
+                    
+* main_Ex7_2 : outputs Figure 7.2
+             : produces plot of instantaneous stream function for a multiply connected domain 
+             : stream function plotted on the sphere and in the stereographic plane
+
+
+ 
+ 

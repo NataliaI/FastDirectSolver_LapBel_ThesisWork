@@ -1,0 +1,42 @@
+\BOOKMARK [0][-]{section*.1}{Approval}{}% 1
+\BOOKMARK [0][-]{section*.3}{Abstract}{}% 2
+\BOOKMARK [0][-]{section*.5}{Acknowledgements}{}% 3
+\BOOKMARK [0][-]{section*.7}{Table of Contents}{}% 4
+\BOOKMARK [0][-]{section*.8}{List of Tables}{}% 5
+\BOOKMARK [0][-]{section*.9}{List of Figures}{}% 6
+\BOOKMARK [0][-]{chapter.1}{Introduction}{}% 7
+\BOOKMARK [1][-]{section.1.1}{Outline}{chapter.1}% 8
+\BOOKMARK [0][-]{chapter.2}{The Laplace-Beltrami Equation and Boundary Integral Equation Methods}{}% 9
+\BOOKMARK [1][-]{section.2.1}{The Generalized Fundamental Solution on the Sphere}{chapter.2}% 10
+\BOOKMARK [1][-]{section.2.2}{Boundary Integral Equation Formulation}{chapter.2}% 11
+\BOOKMARK [1][-]{section.2.3}{The Stereographic Projection}{chapter.2}% 12
+\BOOKMARK [1][-]{section.2.4}{Nystr\366m Method}{chapter.2}% 13
+\BOOKMARK [0][-]{chapter.3}{Fast Direct Solvers}{}% 14
+\BOOKMARK [1][-]{section.3.1}{Rank-Deficient Structure of System}{chapter.3}% 15
+\BOOKMARK [1][-]{section.3.2}{The ID and Rank-Revealing QR}{chapter.3}% 16
+\BOOKMARK [1][-]{section.3.3}{Single Level Brute Force Compression}{chapter.3}% 17
+\BOOKMARK [1][-]{section.3.4}{Recursive Brute Force Compression}{chapter.3}% 18
+\BOOKMARK [1][-]{section.3.5}{Accelerating Compression: Proxy Points in 2D}{chapter.3}% 19
+\BOOKMARK [2][-]{subsection.3.5.1}{Relationship to Potential Theory}{section.3.5}% 20
+\BOOKMARK [2][-]{subsection.3.5.2}{Implementation}{section.3.5}% 21
+\BOOKMARK [1][-]{section.3.6}{Proxy Points on the Sphere}{chapter.3}% 22
+\BOOKMARK [1][-]{section.3.7}{Solution with UMFPACK}{chapter.3}% 23
+\BOOKMARK [0][-]{chapter.4}{Numerical Results}{}% 24
+\BOOKMARK [1][-]{section.4.1}{The Brute Force Vs. Proxy Point Method}{chapter.4}% 25
+\BOOKMARK [1][-]{section.4.2}{The Influence of Geometry on Performance}{chapter.4}% 26
+\BOOKMARK [0][-]{chapter.5}{Point Vortex Motion on the Sphere}{}% 27
+\BOOKMARK [1][-]{section.5.1}{Velocity and Vorticity Fields on the Surface of the Sphere}{chapter.5}% 28
+\BOOKMARK [1][-]{section.5.2}{Instantaneous Point Vortex Motion}{chapter.5}% 29
+\BOOKMARK [1][-]{section.5.3}{Point Vortex Trajectories}{chapter.5}% 30
+\BOOKMARK [2][-]{subsection.5.3.1}{Numerical Methods for Finding Vortex Trajectories}{section.5.3}% 31
+\BOOKMARK [2][-]{subsection.5.3.2}{Spectral Deferred Correction}{section.5.3}% 32
+\BOOKMARK [0][-]{chapter.6}{Numerical Results for Point Vortex Motion}{}% 33
+\BOOKMARK [1][-]{section.6.1}{Instantaneous Point Vortex Motion}{chapter.6}% 34
+\BOOKMARK [1][-]{section.6.2}{Point Vortex Trajectories}{chapter.6}% 35
+\BOOKMARK [2][-]{subsection.6.2.1}{Method 1: Constructing Contours of \(x, x0\)}{section.6.2}% 36
+\BOOKMARK [2][-]{subsection.6.2.2}{Method 2: Solving the Autonomous ODE, or Equation of Motion for a Vortex}{section.6.2}% 37
+\BOOKMARK [2][-]{subsection.6.2.3}{Vortex Motion around a Thin, Extended Island on the Sphere}{section.6.2}% 38
+\BOOKMARK [0][-]{chapter.7}{The Multiply Connected Case}{}% 39
+\BOOKMARK [0][-]{chapter.8}{Conclusion}{}% 40
+\BOOKMARK [1][-]{section.8.1}{Future Work}{chapter.8}% 41
+\BOOKMARK [0][-]{section*.88}{Bibliography}{}% 42

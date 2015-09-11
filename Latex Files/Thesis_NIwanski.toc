@@ -1,0 +1,78 @@
+\contentsline {chapter}{Approval}{ii}{section*.1}
+\contentsline {chapter}{Abstract}{iii}{section*.3}
+\contentsline {chapter}{Acknowledgements}{iv}{section*.5}
+\contentsline {chapter}{Table of Contents}{v}{section*.7}
+\contentsline {chapter}{List of Tables}{vii}{section*.8}
+\contentsline {chapter}{List of Figures}{viii}{section*.9}
+\contentsline {chapter}{\numberline {1}Introduction}{1}{chapter.1}
+\contentsline {section}{\numberline {1.1}Outline}{4}{section.1.1}
+\contentsline {chapter}{\numberline {2}The Laplace-Beltrami Equation and Boundary Integral Equation Methods}{6}{chapter.2}
+\contentsline {section}{\numberline {2.1}The Generalized Fundamental Solution on the Sphere}{8}{section.2.1}
+\contentsline {section}{\numberline {2.2}Boundary Integral Equation Formulation}{9}{section.2.2}
+\contentsline {section}{\numberline {2.3}The Stereographic Projection}{11}{section.2.3}
+\contentsline {section}{\numberline {2.4}Nystr\"{o}m Method}{13}{section.2.4}
+\contentsline {chapter}{\numberline {3}Fast Direct Solvers}{16}{chapter.3}
+\contentsline {subsubsection}{Iterative Methods}{17}{section*.12}
+\contentsline {subsubsection}{Fast Direct Solvers}{18}{section*.13}
+\contentsline {subsubsection}{Outline of Chapter}{20}{section*.14}
+\contentsline {section}{\numberline {3.1}Rank-Deficient Structure of System}{21}{section.3.1}
+\contentsline {section}{\numberline {3.2}The ID and Rank-Revealing QR}{23}{section.3.2}
+\contentsline {section}{\numberline {3.3}Single Level Brute Force Compression}{26}{section.3.3}
+\contentsline {subsubsection}{Cost of Single Level Brute Force Compression and Inversion}{28}{section*.17}
+\contentsline {section}{\numberline {3.4}Recursive Brute Force Compression}{29}{section.3.4}
+\contentsline {subsubsection}{Level 1}{30}{section*.19}
+\contentsline {subsubsection}{Level 2}{33}{section*.21}
+\contentsline {subsubsection}{Level 3}{35}{section*.23}
+\contentsline {subsubsection}{Cost of Recursive Brute Force Compression and Inversion}{36}{section*.25}
+\contentsline {section}{\numberline {3.5}Accelerating Compression: Proxy Points in 2D}{37}{section.3.5}
+\contentsline {subsection}{\numberline {3.5.1}Relationship to Potential Theory}{37}{subsection.3.5.1}
+\contentsline {subsection}{\numberline {3.5.2}Implementation}{39}{subsection.3.5.2}
+\contentsline {subsubsection}{A Note About Complexity:}{42}{section*.29}
+\contentsline {subsubsection}{A Note About Accuracy:}{42}{section*.30}
+\contentsline {section}{\numberline {3.6}Proxy Points on the Sphere}{43}{section.3.6}
+\contentsline {subsubsection}{Example}{46}{section*.34}
+\contentsline {subsubsection}{Level 1}{46}{section*.35}
+\contentsline {subsubsection}{Level 2}{48}{section*.38}
+\contentsline {subsubsection}{Level 3}{50}{section*.41}
+\contentsline {section}{\numberline {3.7}Solution with UMFPACK}{51}{section.3.7}
+\contentsline {chapter}{\numberline {4}Numerical Results}{53}{chapter.4}
+\contentsline {section}{\numberline {4.1}The Brute Force Vs. Proxy Point Method}{54}{section.4.1}
+\contentsline {subsubsection}{Example 4.1}{54}{section*.44}
+\contentsline {subsubsection}{Recursive Levels}{55}{section*.46}
+\contentsline {subsubsection}{Accuracy and Timing Results}{56}{section*.47}
+\contentsline {section}{\numberline {4.2}The Influence of Geometry on Performance}{59}{section.4.2}
+\contentsline {subsubsection}{Example 4.2}{59}{section*.52}
+\contentsline {chapter}{\numberline {5}Point Vortex Motion on the Sphere}{63}{chapter.5}
+\contentsline {section}{\numberline {5.1}Velocity and Vorticity Fields on the Surface of the Sphere}{64}{section.5.1}
+\contentsline {section}{\numberline {5.2}Instantaneous Point Vortex Motion}{66}{section.5.2}
+\contentsline {section}{\numberline {5.3}Point Vortex Trajectories}{67}{section.5.3}
+\contentsline {subsection}{\numberline {5.3.1}Numerical Methods for Finding Vortex Trajectories}{70}{subsection.5.3.1}
+\contentsline {subsection}{\numberline {5.3.2}Spectral Deferred Correction}{71}{subsection.5.3.2}
+\contentsline {subsubsection}{The Picard Integral Equation}{71}{section*.56}
+\contentsline {subsubsection}{Forward Euler}{72}{section*.57}
+\contentsline {subsubsection}{Spectral Integration}{73}{section*.58}
+\contentsline {subsubsection}{Spectral Deferred Correction Algorithm}{74}{section*.59}
+\contentsline {subsubsection}{Composite Spectral Deferred Correction}{76}{section*.60}
+\contentsline {subsubsection}{Systems of ODEs}{76}{section*.61}
+\contentsline {subsubsection}{Summary}{76}{section*.62}
+\contentsline {chapter}{\numberline {6}Numerical Results for Point Vortex Motion}{77}{chapter.6}
+\contentsline {section}{\numberline {6.1}Instantaneous Point Vortex Motion}{78}{section.6.1}
+\contentsline {subsubsection}{Example 6.1: Spherical Cap}{78}{section*.63}
+\contentsline {subsubsection}{Example 6.2: Star-Shaped Island}{80}{section*.66}
+\contentsline {section}{\numberline {6.2}Point Vortex Trajectories}{83}{section.6.2}
+\contentsline {subsection}{\numberline {6.2.1}Method 1: Constructing Contours of $\mathaccentV {hat}05E{\psi }(\mathbf {x}, \mathbf {x}_0)$}{83}{subsection.6.2.1}
+\contentsline {subsubsection}{Example 6.3: Spherical Cap}{83}{section*.68}
+\contentsline {subsubsection}{Example 6.4: Comparison of the Direct Solver with the FMM}{84}{section*.70}
+\contentsline {subsubsection}{Example 6.5: Star-Shaped Island}{85}{section*.72}
+\contentsline {subsection}{\numberline {6.2.2}Method 2: Solving the Autonomous ODE, or Equation of Motion for a Vortex}{85}{subsection.6.2.2}
+\contentsline {subsubsection}{Example 6.6: Spherical Cap}{85}{section*.74}
+\contentsline {subsubsection}{Example 6.7: Star-Shaped Island}{88}{section*.78}
+\contentsline {subsection}{\numberline {6.2.3}Vortex Motion around a Thin, Extended Island on the Sphere}{90}{subsection.6.2.3}
+\contentsline {subsubsection}{Example 6.8}{90}{section*.80}
+\contentsline {chapter}{\numberline {7}The Multiply Connected Case}{93}{chapter.7}
+\contentsline {subsubsection}{The Nystr\"{o}m Method}{95}{section*.83}
+\contentsline {subsubsection}{Example 7.1}{96}{section*.84}
+\contentsline {subsubsection}{Example 7.2}{96}{section*.86}
+\contentsline {chapter}{\numberline {8}Conclusion}{99}{chapter.8}
+\contentsline {section}{\numberline {8.1}Future Work}{100}{section.8.1}
+\contentsline {chapter}{Bibliography}{102}{section*.88}

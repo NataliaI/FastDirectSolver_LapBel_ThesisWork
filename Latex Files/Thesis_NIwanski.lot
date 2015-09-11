@@ -1,0 +1,11 @@
+\addvspace {10\p@ }
+\addvspace {10\p@ }
+\addvspace {10\p@ }
+\addvspace {10\p@ }
+\contentsline {table}{\numberline {4.1}{\ignorespaces Final row/column skeleton dimensions, corresponding to Example 4.1, for the brute force and proxy point methods, denoted by $k_b$ and $k_p$ respectively. The values are broken down by contour. $N$ denotes the original uncompressed matrix dimension. The input values of $n_1^{(\text {max})}$, which determine the number of recursive levels, are also shown. $n_1^{(\text {max})}$ represents the number of points in a block on the finest recursive level.\relax }}{58}{table.caption.50}
+\contentsline {table}{\numberline {4.2}{\ignorespaces Results of the direct solver corresponding to the contour $\Gamma _2$ in Example 4.1. Results are broken down between the brute force and proxy point methods. The table includes the final row/column skeleton dimensions for each value of $N$, as well as the time in seconds taken to complete each stage of the solver. $T_c$ denotes the time for compression, $T_{lu}$ denotes the time for LU decomposition with UMFPACK, and $T_s$ denotes the solution time. Times were obtained from MATLAB's tic and toc commands which record the internal time of execution in seconds. The error in the solution in the infinity norm is also shown, using the reference solution (\ref {eq: Ch4RefSoln}).\relax }}{59}{table.caption.51}
+\contentsline {table}{\numberline {4.3}{\ignorespaces Results of the direct solver corresponding to Example 4.2. The proxy point method is applied to four different contours. The dimensions of the final skeletons, $k_p$ are given, along with the condition number $K$ in the infinity norm for the associated uncompressed matrix. Timings for compression, $T_c$, LU decomposition, $T_{lu}$, and solution, $T_s$ are also given, along with the error, in the infinity norm. The reference solution (\ref {eq: Ch4RefSoln}) is used. The accuracy of the ID is set to $\varepsilon =10^{-10}$ just as in Example 4.1.\relax }}{61}{table.caption.54}
+\addvspace {10\p@ }
+\addvspace {10\p@ }
+\addvspace {10\p@ }
+\addvspace {10\p@ }
