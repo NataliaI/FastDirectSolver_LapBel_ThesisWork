@@ -4,6 +4,9 @@ Codes for solving the Dirichlet Laplace-Beltrami Equation on the Sphere
 Codes are divided by chapter in self contained folders
 All scripts which generate figures/results in the thesis are included
 
+- Codes for Chapters 4, 6, and 7 contain the main scripts used for obtaining all numerical results :
+
+
 CHAPTER 4 : Numerical Results
 ------------------------------
 
@@ -92,6 +95,43 @@ CHAPTER 7: The Multiply Connected Case
 * main_Ex7_2 : outputs Figure 7.2
              : produces plot of instantaneous stream function for a multiply connected domain 
              : stream function plotted on the sphere and in the stereographic plane
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+- Codes for Chapters 2 and 3 contain scripts for outputting the figures in these chapters
+
+CHAPTER 2: The Laplace-Beltrami Equation and Boundary Integral Equation Methods
+--------------------------------------------------------------------------------
+* main_Ch2_Figs : outputs Figures 2.1 and 2.2 in Chapter 2
+                : they show an example of a simply connected domain on the sphere and in 
+                  the stereographic plane 
+                  
+CHAPTER 3: Fast Direct Solvers
+------------------------------- 
+* main_Sec3_1_Fig3_1 : outputs Figure 3.1 - divides sources on boundary into three categories: 
+                                          - near/far field and self-interaction terms
+                                        
+* main_Sec3_1_SingValues : outputs Figure 3.2 - shows the rank-deficiency in off-diagonal 
+                                                blocks of system matrix
+                                                
+* main_Sec3_4_BinaryTree : outputs Figure 3.3 - shows how the boundary contour is divided 
+                                               across recursive levels
+                                               
+* main_Sec3_4_BruteForceExample : outputs figures in Section 3.4 
+                                : show how the compression algorithm proceeds for the brute 
+                                  force method
+* main_Sec3_5_2DProxy : outputs Figures 3.7, 3.8 and 3.9
+                      : show how proxy circles are constructed in 2D
+
+* main_Sec3_6_ProxyCases : outputs Figures 3.11 and 3.12
+                         : shows the two cases that proxy circles/caps can fall into on the sphere 
+                         : (explained in Section 3.6)
+                         
+* main_Sec3_6_ProxyPointExample : outputs figures in Section 3.6 which show how the compression
+                                  algorithm proceed for the proxy point method
+                                  
+    
+                     
 
 
  
